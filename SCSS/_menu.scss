@@ -1,0 +1,31 @@
+.icon-bar{
+    background: $primary-color;
+}
+
+.menu-nav{
+    &__item{
+        &.active > a{
+            color: $menu-color;
+        }
+    }
+
+    &__link{
+        color: $primary-color;
+        &:hover{
+            background: $primary-color;
+            color: $secondary-color;
+        }
+    }
+
+    &__link-btn{
+        background: $menu-color;
+        color: $secondary-color;
+        width: 100%;
+        border-radius: 10px;
+        &:hover{
+            border: none;
+            box-shadow: 5px 5px 10px $menu-color;
+            transition: 0.5s;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@import 'config';
+@import 'home';
+@import 'menu';
+@import 'features';
+@import 'gallery';
+
+body{
+    background: $primary-color;
+    color:set-text-color($primary-color);
+    height:100vh;
+    font-family: system-ui;    
+    line-height: 1;
+}
+
+h1, h6, p, a{
+    font-weight: 500;
+    font-family: system-ui;
+}
+
+a{
+    color: set-text-color($primary-color);
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 0;
+
+    .navbar-style{
+        box-shadow: 0 5px 20px #efefef;
+        background-color: rgb(38, 38, 38);
+        color:white;
+        .container{
+            .navbar-header{
+                &__icon-color{
+                    color: white;
+                }
+                margin-top: 11px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    
+    .social-icons{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        padding: 0;
+
+        @include transition-ease;
+
+        a{
+            padding: 0.4rem;
+        }
+
+        &__color{
+            color: black;
+            &:hover{
+                color: $menu-color;
+            }
+        }
+    }
+}
+
+footer{
+    font-size: 1rem;
+    position: relative;
+    top: 200px;
+    bottom: 0.4rem;
+    right: 0.5rem;
+    text-align: right;
+    padding: 0.5rem;
+    color: set-text-color($primary-color);
+}

@@ -1,0 +1,23 @@
+$primary-color:white;
+$secondary-color:rgb(34, 34, 34);
+$menu-color:rgb(0, 195, 255);
+$bg-btn-color:rgb(73, 73, 73);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+@function set-text-color($color){
+    @if(lightness($color)>40%){
+        @return #000;
+    }
+    @else{
+        @return #fff;
+    }
+}

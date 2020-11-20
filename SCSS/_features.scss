@@ -1,0 +1,14 @@
+.features{
+    width: 100%;
+    
+    .table-style{
+        width: 100%;
+        margin: 15px;  
+        overflow: hidden;
+    
+        &__pad{
+            padding: 15px;
+            font-family: system-ui;
+        }
+    }
+}

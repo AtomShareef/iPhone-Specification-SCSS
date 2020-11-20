@@ -1,0 +1,199 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  height: 100%;
+  padding-top: 10vh;
+  overflow: visible;
+}
+
+.home__banner-info, .home__banner-image {
+  margin: 10px 0 80px;
+}
+
+.home__banner-image-fix {
+  width: 327px;
+  height: 450px;
+}
+
+.home__big-text {
+  font-size: 52px;
+  font-family: system-ui;
+  margin: 20px 10px;
+  color: #000;
+}
+
+.home__para1 {
+  margin: 50px 0;
+  text-indent: 50px;
+  text-align: justify;
+  font-family: system-ui;
+}
+
+.home__para2 {
+  margin: 50px 0 0 10px;
+  font-family: system-ui;
+  text-align: justify;
+}
+
+.home__para2-list {
+  margin: 15px 0 0 10px;
+  text-align: justify;
+  font-family: system-ui;
+}
+
+.icon-bar {
+  background: white;
+}
+
+.menu-nav__item.active > a {
+  color: #00c3ff;
+}
+
+.menu-nav__link {
+  color: white;
+}
+
+.menu-nav__link:hover {
+  background: white;
+  color: #222222;
+}
+
+.menu-nav__link-btn {
+  background: #00c3ff;
+  color: #222222;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-nav__link-btn:hover {
+  border: none;
+  -webkit-box-shadow: 5px 5px 10px #00c3ff;
+          box-shadow: 5px 5px 10px #00c3ff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.features {
+  width: 100%;
+}
+
+.features .table-style {
+  width: 100%;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.features .table-style__pad {
+  padding: 15px;
+  font-family: system-ui;
+}
+
+.gallery {
+  padding-bottom: 2rem;
+}
+
+.gallery__items {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.gallery__item {
+  margin: 50px 50px;
+  position: relative;
+  border-bottom: 5px solid #222222;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery__item img {
+  width: 100%;
+}
+
+body {
+  background: white;
+  color: #000;
+  height: 100vh;
+  font-family: system-ui;
+  line-height: 1;
+}
+
+h1, h6, p, a {
+  font-weight: 500;
+  font-family: system-ui;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: 0;
+}
+
+header .navbar-style {
+  -webkit-box-shadow: 0 5px 20px #efefef;
+          box-shadow: 0 5px 20px #efefef;
+  background-color: #262626;
+  color: white;
+}
+
+header .navbar-style .container .navbar-header {
+  margin-top: 11px;
+  margin-left: 10px;
+}
+
+header .navbar-style .container .navbar-header__icon-color {
+  color: white;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main .social-icons {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+main .social-icons a {
+  padding: 0.4rem;
+}
+
+main .social-icons__color {
+  color: black;
+}
+
+main .social-icons__color:hover {
+  color: #00c3ff;
+}
+
+footer {
+  font-size: 1rem;
+  position: relative;
+  top: 200px;
+  bottom: 0.4rem;
+  right: 0.5rem;
+  text-align: right;
+  padding: 0.5rem;
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */

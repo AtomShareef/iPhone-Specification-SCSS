@@ -1,0 +1,41 @@
+.home{
+    height: 100%;
+    padding-top: 10vh;
+    overflow: visible;
+
+    &__banner-info, &__banner-image{
+        margin: 10px 0 80px;
+    }
+
+    &__banner-image-fix{
+        width: 327px;
+        height: 450px;
+    }
+
+
+    &__big-text{
+        font-size: 52px;
+        font-family: system-ui;
+        margin: 20px 10px;
+        color: set-text-color($primary-color);
+    }
+
+    &__para1{
+        margin: 50px 0 ;
+        text-indent: 50px; 
+        text-align: justify;
+        font-family: system-ui;
+    }
+
+    &__para2{
+        margin: 50px 0 0 10px; 
+        font-family: system-ui;
+        text-align: justify;
+    }
+
+    &__para2-list{
+        margin: 15px 0 0 10px; 
+        text-align: justify;
+        font-family: system-ui;
+    }
+}
